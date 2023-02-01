@@ -1,16 +1,27 @@
 .base {
-  display : flex;
+  display: flex;
   flex-direction: column;
-  height : 100vh;
-  width : 100vw;
+  height: 100vh;
+  width: 100vw;
   justify-content: center;
   align-items: center;
-  background-color: #1A092B;
-  color : #B37BEE;
+  background-color:  #1e1636;
+  color: #B37BEE;
   margin: 0px;
 }
 
-.input-field{
+.input-field,
+.input-field :focus {
   height: 70vh;
-  width : 70vw;
+  width: 70vw;
+  background-color: #472c76;
 }
+
+.form-control:focus{
+  background-color: #472c76;
+  box-shadow: 0 0 0 0.25rem rgb(146 104 175 / 25%);
+  color :aliceblue
+}
+/* .input-field :focus {
+  background-color: #472c76;
+} */

@@ -28,8 +28,9 @@ export default function App() {
       <FormGroup>
         <Input
           className = "input-field"
-          name="text"
+          // name="text"
           type="textarea"
+          tabindex = "1"
           placeholder="Enter your paragraph here"
           onChange={e => setQuery(e.target.value)
           }
