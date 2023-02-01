@@ -15,12 +15,14 @@
   height: 70vh;
   width: 70vw;
   background-color: #472c76;
+  border-color: rgb(194, 150, 232);
 }
 
 .form-control:focus{
   background-color: #472c76;
   box-shadow: 0 0 0 0.25rem rgb(146 104 175 / 25%);
-  color :aliceblue
+  color :aliceblue;
+  border-color: rgb(194, 150, 232);
 }
 /* .input-field :focus {
   background-color: #472c76;
